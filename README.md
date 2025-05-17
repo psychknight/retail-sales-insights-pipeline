@@ -43,7 +43,6 @@ To demonstrate secure enterprise deployment, this project uses a **Private Endpo
 
 - **Storage Account**: `retailsalesstorage`
 - **VNet**: `RetailSalesVNet`
-- **Subnet**: `data-subnet`
 - **Private Endpoint Name**: `retailsales-pe`
 - **Target**: Blob Storage
 - **Public Network Access**: Disabled
