@@ -36,3 +36,18 @@ This project uses a Private Endpoint for secure connectivity between Azure servi
 - VNet: `RetailSalesVNet`
 - Subnet: `data-subnet`
 - Resource: Azure Blob Storage
+
+- ## 🔐 Networking & Security: Private Endpoint Setup
+
+To demonstrate secure enterprise deployment, this project uses a **Private Endpoint** to restrict access to the Azure Storage Account. Public access is disabled, and all blob traffic flows securely through a Virtual Network.
+
+- **Storage Account**: `retailsalesstorage`
+- **VNet**: `RetailSalesVNet`
+- **Subnet**: `data-subnet`
+- **Private Endpoint Name**: `retailsales-pe`
+- **Target**: Blob Storage
+- **Public Network Access**: Disabled
+
+![Private Endpoint](docs/private-endpoint-overview.png)
+![Storage Networking Settings](docs/storage-network-settings.png)
+
