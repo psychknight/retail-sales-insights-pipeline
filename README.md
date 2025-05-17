@@ -27,3 +27,12 @@ This is an end-to-end Azure Data Engineering project that ingests, processes, an
 - [ ] Data ingested with ADF
 - [ ] Transformations complete in Databricks
 - [ ] Power BI dashboard ready
+
+
+## 🔐 Networking: Private Endpoint Demo
+
+This project uses a Private Endpoint for secure connectivity between Azure services and Blob Storage. The endpoint ensures that no traffic goes over the public internet, simulating an enterprise-grade deployment architecture.
+
+- VNet: `RetailSalesVNet`
+- Subnet: `data-subnet`
+- Resource: Azure Blob Storage
