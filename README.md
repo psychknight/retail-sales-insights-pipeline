@@ -63,3 +63,5 @@ This project uses a **Managed Virtual Network Integration Runtime (IR)** within 
 - Azure Blob Storage (with Private Endpoint)
 - System Assigned Managed Identity
 
+![BLOB LS JSON](docs/blob-linkedservice-json.png)
+![IR Configration](docs/IR-config.png)
