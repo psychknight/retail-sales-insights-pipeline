@@ -50,3 +50,16 @@ To demonstrate secure enterprise deployment, this project uses a **Private Endpo
 ![Private Endpoint](docs/private-endpoint-overview.png)
 ![Storage Networking Settings](docs/storage-network-settings.png)
 
+## 🔐 Networking & Security: Enterprise-grade ADF Access
+
+This project uses a **Managed Virtual Network Integration Runtime (IR)** within Azure Data Factory and **System Assigned Managed Identity (MSI)** to securely connect to Azure Blob Storage over a **Private Endpoint**.
+
+- 🔒 No public access to storage account
+- 🔐 No keys or secrets used — all access is identity-based
+- ✅ Follows Microsoft’s recommended architecture for secure data pipelines
+
+### Tools Used:
+- Azure Data Factory (Managed VNet enabled)
+- Azure Blob Storage (with Private Endpoint)
+- System Assigned Managed Identity
+
